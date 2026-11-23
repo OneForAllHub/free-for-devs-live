@@ -1,39 +1,39 @@
 name,category,status,http_code,latency_ms,free_tier,url
-Google AI Studio,AI Inference,UP,200,1306,Free Gemini API tier for prototyping,https://aistudio.google.com/
-GroqCloud,AI Inference,UP,200,635,Free rate-limited LPU inference API,https://groq.com/
-Hugging Face Spaces,AI Inference,UP,200,761,Free CPU basic Spaces for Gradio/Streamlit/Docker,https://huggingface.co/spaces
-OpenRouter,AI Inference,UP,200,566,Multiple :free hosted open-weight LLM models,https://openrouter.ai/
-PostHog,Analytics,UP,200,530,1M product analytics events & 5k session replays/mo,https://posthog.com/
-Auth0,Auth,UP,200,554,"25,000 monthly active users, social logins",https://auth0.com/
-Clerk,Auth,UP,200,674,"10,000 monthly active users free with prebuilt UI",https://clerk.com/
-GitHub Actions,CI/CD,UP,200,1067,"Unlimited minutes on public repos, 2,000 mins/mo private",https://github.com/features/actions
-AWS Free Tier,Cloud VMs,UP,200,724,1M Lambda requests/mo always free + 12-mo EC2/RDS trial,https://aws.amazon.com/free/
-Google Cloud Free Tier,Cloud VMs,UP,200,635,"e2-micro VM, Cloud Run 2M requests/mo, 5 GB storage",https://cloud.google.com/free
-Oracle Cloud Always Free,Cloud VMs,UP,200,639,"Up to 4 ARM Ampere OCPUs, 24 GB RAM, 200 GB block storage",https://www.oracle.com/cloud/free/
-CockroachDB Serverless,Database,UP,200,1314,"10 GB storage, 50M Request Units/mo",https://www.cockroachlabs.com/
-MongoDB Atlas,Database,UP,200,2990,512 MB shared M0 cluster forever free,https://www.mongodb.com/atlas
-Neon Serverless Postgres,Database,UP,200,1231,"0.5 GB storage, branching, autoscaling Postgres",https://neon.tech/
-Supabase,Database,UP,200,617,"2 active Postgres projects, 500 MB DB, 50k MAU auth",https://supabase.com/
-Turso (libSQL),Database,UP,200,564,"500 databases, 9 GB storage, 1B row reads/mo",https://turso.tech/
-Upstash Redis,Database,UP,200,562,"10,000 commands/day serverless Redis & Kafka",https://upstash.com/
-Brevo (Sendinblue),Email,UP,200,617,300 transactional emails/day free,https://www.brevo.com/
-Mailgun,Email,UP,200,670,100 emails/day free sandbox/flex tier,https://www.mailgun.com/
-Resend,Email,UP,200,503,"3,000 emails/mo (100/day) developer email API",https://resend.com/
-Cloudflare Pages,Hosting,UP,200,1061,"Unlimited static sites, 500 builds/mo, unlimited bandwidth",https://pages.cloudflare.com/
-Fly.io,Hosting,UP,200,525,Pay-as-you-go with small free allowances & global edge VMs,https://fly.io/
-GitHub Pages,Hosting,UP,200,491,Free static hosting directly from GitHub repositories,https://pages.github.com/
-Koyeb,Hosting,UP,200,525,1 free nano web service + global edge network,https://www.koyeb.com/
-Netlify Starter,Hosting,UP,200,786,"100 GB bandwidth/mo, 300 build mins, edge functions",https://www.netlify.com/
-Render Free,Hosting,UP,200,828,Free web services (spins down on idle) & static sites,https://render.com/
-Vercel Hobby,Hosting,UP,200,537,"100 GB bandwidth/mo, serverless functions, preview deploys",https://vercel.com/
-Better Stack,Monitoring,UP,200,635,10 uptime monitors (3-min checks) + status page,https://betterstack.com/
-Grafana Cloud,Monitoring,UP,200,666,"10k metrics series, 50 GB logs & traces",https://grafana.com/products/cloud/
-Sentry,Monitoring,UP,200,1334,"5,000 errors/mo, performance tracing for 1 user",https://sentry.io/
-Cloudflare Tunnel,Networking,UP,200,1034,Unlimited zero-trust tunnels without opening ports,https://developers.cloudflare.com/cloudflare-one/connections/connect-networks/
-Tailscale,Networking,UP,200,795,Free personal mesh VPN for up to 100 devices,https://tailscale.com/
-ngrok,Networking,UP,200,607,1 free static domain + local tunnel inspection,https://ngrok.com/
-Cloudflare Workers,Serverless,UP,200,990,"100,000 requests/day globally at the edge",https://workers.cloudflare.com/
-Val Town,Serverless,UP,200,750,Free TypeScript serverless cron & HTTP endpoints,https://www.val.town/
-Backblaze B2,Storage & CDN,UP,200,585,10 GB S3-compatible object storage free,https://www.backblaze.com/cloud-storage
-Cloudflare R2,Storage & CDN,UP,200,2290,"10 GB storage/mo, zero egress fees",https://www.cloudflare.com/developer-platform/products/r2/
-Cloudinary,Storage & CDN,UP,200,664,25 credits/mo image & video optimization CDN,https://cloudinary.com/
+Google AI Studio,AI Inference,UP,200,223,Free Gemini API tier for prototyping,https://aistudio.google.com/
+GroqCloud,AI Inference,UP,200,130,Free rate-limited LPU inference API,https://groq.com/
+Hugging Face Spaces,AI Inference,UP,200,160,Free CPU basic Spaces for Gradio/Streamlit/Docker,https://huggingface.co/spaces
+OpenRouter,AI Inference,UP,200,138,Multiple :free hosted open-weight LLM models,https://openrouter.ai/
+PostHog,Analytics,UP,200,99,1M product analytics events & 5k session replays/mo,https://posthog.com/
+Auth0,Auth,UP,200,210,"25,000 monthly active users, social logins",https://auth0.com/
+Clerk,Auth,UP,200,264,"10,000 monthly active users free with prebuilt UI",https://clerk.com/
+GitHub Actions,CI/CD,UP,200,320,"Unlimited minutes on public repos, 2,000 mins/mo private",https://github.com/features/actions
+AWS Free Tier,Cloud VMs,UP,200,145,1M Lambda requests/mo always free + 12-mo EC2/RDS trial,https://aws.amazon.com/free/
+Google Cloud Free Tier,Cloud VMs,UP,200,137,"e2-micro VM, Cloud Run 2M requests/mo, 5 GB storage",https://cloud.google.com/free
+Oracle Cloud Always Free,Cloud VMs,UP,200,221,"Up to 4 ARM Ampere OCPUs, 24 GB RAM, 200 GB block storage",https://www.oracle.com/cloud/free/
+CockroachDB Serverless,Database,UP,200,657,"10 GB storage, 50M Request Units/mo",https://www.cockroachlabs.com/
+MongoDB Atlas,Database,UP,200,1276,512 MB shared M0 cluster forever free,https://www.mongodb.com/atlas
+Neon Serverless Postgres,Database,UP,200,342,"0.5 GB storage, branching, autoscaling Postgres",https://neon.tech/
+Supabase,Database,UP,200,126,"2 active Postgres projects, 500 MB DB, 50k MAU auth",https://supabase.com/
+Turso (libSQL),Database,UP,200,153,"500 databases, 9 GB storage, 1B row reads/mo",https://turso.tech/
+Upstash Redis,Database,UP,200,196,"10,000 commands/day serverless Redis & Kafka",https://upstash.com/
+Brevo (Sendinblue),Email,UP,200,66,300 transactional emails/day free,https://www.brevo.com/
+Mailgun,Email,UP,200,124,100 emails/day free sandbox/flex tier,https://www.mailgun.com/
+Resend,Email,UP,200,681,"3,000 emails/mo (100/day) developer email API",https://resend.com/
+Cloudflare Pages,Hosting,UP,200,264,"Unlimited static sites, 500 builds/mo, unlimited bandwidth",https://pages.cloudflare.com/
+Fly.io,Hosting,UP,200,178,Pay-as-you-go with small free allowances & global edge VMs,https://fly.io/
+GitHub Pages,Hosting,UP,200,105,Free static hosting directly from GitHub repositories,https://pages.github.com/
+Koyeb,Hosting,UP,200,374,1 free nano web service + global edge network,https://www.koyeb.com/
+Netlify Starter,Hosting,UP,200,251,"100 GB bandwidth/mo, 300 build mins, edge functions",https://www.netlify.com/
+Render Free,Hosting,UP,200,262,Free web services (spins down on idle) & static sites,https://render.com/
+Vercel Hobby,Hosting,UP,200,90,"100 GB bandwidth/mo, serverless functions, preview deploys",https://vercel.com/
+Better Stack,Monitoring,UP,200,207,10 uptime monitors (3-min checks) + status page,https://betterstack.com/
+Grafana Cloud,Monitoring,UP,200,79,"10k metrics series, 50 GB logs & traces",https://grafana.com/products/cloud/
+Sentry,Monitoring,UP,200,307,"5,000 errors/mo, performance tracing for 1 user",https://sentry.io/
+Cloudflare Tunnel,Networking,UP,200,220,Unlimited zero-trust tunnels without opening ports,https://developers.cloudflare.com/cloudflare-one/connections/connect-networks/
+Tailscale,Networking,UP,200,193,Free personal mesh VPN for up to 100 devices,https://tailscale.com/
+ngrok,Networking,UP,200,167,1 free static domain + local tunnel inspection,https://ngrok.com/
+Cloudflare Workers,Serverless,UP,200,379,"100,000 requests/day globally at the edge",https://workers.cloudflare.com/
+Val Town,Serverless,UP,200,180,Free TypeScript serverless cron & HTTP endpoints,https://www.val.town/
+Backblaze B2,Storage & CDN,UP,200,212,10 GB S3-compatible object storage free,https://www.backblaze.com/cloud-storage
+Cloudflare R2,Storage & CDN,UP,200,556,"10 GB storage/mo, zero egress fees",https://www.cloudflare.com/developer-platform/products/r2/
+Cloudinary,Storage & CDN,UP,200,160,25 credits/mo image & video optimization CDN,https://cloudinary.com/
