@@ -1,0 +1,221 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Free For Devs Live — Verified Free Hosting, Databases &amp; Cloud Tiers</title>
+  <meta name="description" content="Daily status-checked list of free developer tiers: cloud hosting, serverless Postgres, Redis, auth, email, and AI inference." />
+  <meta name="keywords" content="free hosting for developers, free database tier, free for developers, free cloud credits" />
+  <meta name="robots" content="index, follow" />
+  <link rel="canonical" href="https://oneforallhub.github.io/free-for-devs-live/" />
+  <meta property="og:title" content="Free For Devs Live — Verified Free Hosting, Databases &amp; Cloud Tiers" />
+  <meta property="og:description" content="Daily status-checked list of free developer tiers: cloud hosting, serverless Postgres, Redis, auth, email, and AI inference." />
+  <meta property="og:type" content="website" />
+  <meta property="og:url" content="https://oneforallhub.github.io/free-for-devs-live/" />
+  <meta property="og:site_name" content="OneForAllHub" />
+  <meta name="twitter:card" content="summary_large_image" />
+  <meta name="twitter:title" content="Free For Devs Live — Verified Free Hosting, Databases &amp; Cloud Tiers" />
+  <meta name="twitter:description" content="Daily status-checked list of free developer tiers: cloud hosting, serverless Postgres, Redis, auth, email, and AI inference." />
+  <script type="application/ld+json">[{"@context": "https://schema.org", "@type": "Dataset", "name": "Free For Devs Live — Verified Free Hosting, Databases & Cloud Tiers", "description": "Daily status-checked list of free developer tiers: cloud hosting, serverless Postgres, Redis, auth, email, and AI inference.", "url": "https://oneforallhub.github.io/free-for-devs-live/", "sameAs": "https://github.com/OneForAllHub/free-for-devs-live", "dateModified": "2026-11-23T06:16:03Z", "keywords": ["free hosting for developers", "free database tier", "free for developers", "free cloud credits"], "license": "https://github.com/OneForAllHub/free-for-devs-live/blob/main/LICENSE", "creator": {"@type": "Organization", "name": "OneForAllHub", "url": "https://github.com/OneForAllHub"}}]</script>
+  
+  <style>
+    :root {
+      --bg: #0b1020;
+      --surface: #121931;
+      --surface-2: #182240;
+      --border: #26335c;
+      --text: #e6ecff;
+      --muted: #9aa8d1;
+      --accent: #5b8cff;
+      --accent-2: #38d9a9;
+      --warn: #fcc419;
+      --danger: #ff6b6b;
+    }
+    * { box-sizing: border-box; }
+    body {
+      margin: 0;
+      font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Inter, sans-serif;
+      background: radial-gradient(circle at top right, #162147, var(--bg) 55%);
+      color: var(--text);
+      line-height: 1.55;
+    }
+    a { color: #7da6ff; text-decoration: none; }
+    a:hover { text-decoration: underline; }
+    .container { max-width: 1240px; margin: 0 auto; padding: 22px 18px 56px; }
+    .breadcrumbs { font-size: 0.85rem; color: var(--muted); margin-bottom: 12px; }
+    header {
+      background: linear-gradient(135deg, rgba(91,140,255,0.14), rgba(56,217,169,0.08));
+      border: 1px solid var(--border);
+      border-radius: 16px;
+      padding: 24px;
+      margin-bottom: 18px;
+    }
+    .top-bar { display: flex; flex-wrap: wrap; gap: 12px; justify-content: space-between; align-items: center; }
+    h1 { margin: 0 0 8px; font-size: clamp(1.45rem, 3vw, 2.15rem); letter-spacing: -0.02em; }
+    .subtitle { color: var(--muted); margin: 0 0 14px; max-width: 840px; }
+    .actions { display: flex; flex-wrap: wrap; gap: 10px; }
+    .btn {
+      display: inline-flex; align-items: center; gap: 6px;
+      background: var(--surface-2); color: var(--text);
+      border: 1px solid var(--border); border-radius: 10px;
+      padding: 8px 14px; font-size: 0.9rem; font-weight: 600;
+    }
+    .btn.primary { background: var(--accent); border-color: var(--accent); color: #fff; }
+    .btn:hover { filter: brightness(1.08); text-decoration: none; }
+    .subnav { display: flex; flex-wrap: wrap; gap: 8px; margin: 14px 0 4px; }
+    .subnav-pill {
+      background: var(--surface); border: 1px solid var(--border); color: var(--muted);
+      padding: 6px 12px; border-radius: 999px; font-size: 0.83rem; font-weight: 600;
+    }
+    .subnav-pill.active, .subnav-pill:hover { background: var(--surface-2); color: #fff; border-color: var(--accent); text-decoration: none; }
+    .stats-grid {
+      display: grid; grid-template-columns: repeat(auto-fit, minmax(170px, 1fr));
+      gap: 12px; margin: 18px 0;
+    }
+    .stat-card {
+      background: var(--surface); border: 1px solid var(--border);
+      border-radius: 12px; padding: 14px 16px;
+    }
+    .stat-label { font-size: 0.78rem; text-transform: uppercase; letter-spacing: 0.05em; color: var(--muted); }
+    .stat-value { font-size: 1.45rem; font-weight: 700; margin-top: 4px; color: #fff; }
+    .toolbar {
+      display: flex; flex-wrap: wrap; gap: 12px; align-items: center;
+      justify-content: space-between; margin: 18px 0;
+    }
+    .search-box {
+      flex: 1 1 280px; background: var(--surface); border: 1px solid var(--border);
+      color: var(--text); padding: 10px 14px; border-radius: 10px; font-size: 0.95rem;
+    }
+    .filters { display: flex; flex-wrap: wrap; gap: 8px; }
+    .filter-btn {
+      background: var(--surface); color: var(--muted); border: 1px solid var(--border);
+      border-radius: 999px; padding: 6px 13px; cursor: pointer; font-size: 0.84rem; font-weight: 600;
+    }
+    .filter-btn.active { background: var(--accent); color: #fff; border-color: var(--accent); }
+    .table-wrap {
+      overflow-x: auto; background: var(--surface); border: 1px solid var(--border);
+      border-radius: 14px;
+    }
+    table { width: 100%; border-collapse: collapse; font-size: 0.9rem; }
+    th, td { padding: 12px 14px; text-align: left; border-bottom: 1px solid var(--border); vertical-align: top; }
+    th { background: var(--surface-2); color: var(--muted); font-size: 0.8rem; text-transform: uppercase; letter-spacing: 0.04em; position: sticky; top: 0; }
+    tr:hover td { background: rgba(91,140,255,0.06); }
+    .cards-grid {
+      display: grid; grid-template-columns: repeat(auto-fill, minmax(290px, 1fr));
+      gap: 16px;
+    }
+    .card {
+      background: var(--surface); border: 1px solid var(--border); border-radius: 14px;
+      overflow: hidden; display: flex; flex-direction: column;
+    }
+    .card img { width: 100%; height: 165px; object-fit: cover; background: #0e1428; }
+    .card-body { padding: 15px; display: flex; flex-direction: column; gap: 8px; flex: 1; }
+    .card-title { font-weight: 700; font-size: 1.04rem; margin: 0; color: #fff; }
+    .card-meta { font-size: 0.85rem; color: var(--muted); }
+    .badge {
+      display: inline-block; padding: 3px 9px; border-radius: 999px;
+      font-size: 0.76rem; font-weight: 700; background: var(--surface-2); border: 1px solid var(--border);
+    }
+    .badge.ok { color: var(--accent-2); border-color: rgba(56,217,169,0.4); }
+    .badge.warn { color: var(--warn); border-color: rgba(252,196,25,0.4); }
+    .badge.bad { color: var(--danger); border-color: rgba(255,107,107,0.4); }
+    footer {
+      margin-top: 34px; padding-top: 18px; border-top: 1px solid var(--border);
+      color: var(--muted); font-size: 0.85rem; display: flex; flex-wrap: wrap; justify-content: space-between; gap: 12px;
+    }
+    code { background: var(--surface-2); padding: 2px 6px; border-radius: 6px; font-size: 0.85em; }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <div class="breadcrumbs"><a href="https://oneforallhub.github.io/">All Trackers Hub</a> · <a href="https://oneforallhub.github.io/panel.html">Traffic Panel</a> · <a href="https://github.com/OneForAllHub" target="_blank" rel="noopener">GitHub Profile</a></div>
+    <header>
+      <div class="top-bar">
+        <div>
+          <h1>Free For Devs Live — Verified Free Hosting, Databases &amp; Cloud Tiers</h1>
+          <p class="subtitle">Daily status-checked list of free developer tiers: cloud hosting, serverless Postgres, Redis, auth, email, and AI inference.</p>
+        </div>
+        <div class="actions">
+          <a class="btn primary" href="https://github.com/OneForAllHub/free-for-devs-live" target="_blank" rel="noopener">★ Star on GitHub</a>
+          <a class="btn" href="https://github.com/OneForAllHub/free-for-devs-live/tree/main/data" target="_blank" rel="noopener">JSON / CSV Feeds</a>
+          <a class="btn" href="https://oneforallhub.github.io/panel.html">📊 Traffic Panel</a>
+        </div>
+      </div>
+      <div style="font-size:0.84rem;color:var(--muted);">
+        Last auto-updated: <strong>2026-11-23T06:16:03Z</strong>
+      </div>
+      <nav class="subnav" aria-label="Topic pages"><a class="subnav-pill active" href="https://oneforallhub.github.io/free-for-devs-live/">All Overview</a><a class="subnav-pill " href="https://oneforallhub.github.io/free-for-devs-live/pages/free-hosting.html">Free Hosting</a><a class="subnav-pill " href="https://oneforallhub.github.io/free-for-devs-live/pages/free-databases.html">Free Databases</a><a class="subnav-pill " href="https://oneforallhub.github.io/free-for-devs-live/pages/free-cloud-vms.html">Free Cloud VMs</a><a class="subnav-pill " href="https://oneforallhub.github.io/free-for-devs-live/pages/free-ai-inference.html">Free AI Tiers</a><a class="subnav-pill " href="https://oneforallhub.github.io/free-for-devs-live/pages/free-auth-email.html">Auth &amp; Email</a></nav>
+    </header>
+
+    <section class="stats-grid">
+      <div class="stat-card"><div class="stat-label">Free Dev Tools</div><div class="stat-value" id="visibleCount">38</div></div><div class="stat-card"><div class="stat-label">Online</div><div class="stat-value">38</div></div><div class="stat-card"><div class="stat-label">Categories</div><div class="stat-value">12</div></div><div class="stat-card"><div class="stat-label">SEO Subpages</div><div class="stat-value">5</div></div>
+    </section>
+
+    <section class="toolbar">
+      <input id="searchInput" class="search-box" type="search" placeholder="Search items, providers, tags, or keywords..." aria-label="Search dataset" />
+      <div class="filters">
+        <button class="filter-btn active" data-filter="all">All Services</button><button class="filter-btn" data-filter="ai-inference">AI Inference</button><button class="filter-btn" data-filter="analytics">Analytics</button><button class="filter-btn" data-filter="auth">Auth</button><button class="filter-btn" data-filter="ci-cd">CI/CD</button><button class="filter-btn" data-filter="cloud-vms">Cloud VMs</button><button class="filter-btn" data-filter="database">Database</button><button class="filter-btn" data-filter="email">Email</button><button class="filter-btn" data-filter="hosting">Hosting</button><button class="filter-btn" data-filter="monitoring">Monitoring</button><button class="filter-btn" data-filter="networking">Networking</button><button class="filter-btn" data-filter="serverless">Serverless</button><button class="filter-btn" data-filter="storage-cdn">Storage &amp; CDN</button>
+      </div>
+    </section>
+
+    <main>
+      <div class="table-wrap"><table><thead><tr><th>Status</th><th>Service</th><th>Category</th><th>Free Tier Allowance</th><th>Latency</th></tr></thead><tbody><tr data-searchable="Google AI Studio AI Inference Free Gemini API tier for prototyping" data-category="ai-inference"><td><span class="badge ok">UP</span></td><td><a href="https://aistudio.google.com/" target="_blank" rel="noopener"><strong>Google AI Studio</strong></a></td><td><span class="badge">AI Inference</span></td><td>Free Gemini API tier for prototyping</td><td>1453 ms</td></tr><tr data-searchable="GroqCloud AI Inference Free rate-limited LPU inference API" data-category="ai-inference"><td><span class="badge ok">UP</span></td><td><a href="https://groq.com/" target="_blank" rel="noopener"><strong>GroqCloud</strong></a></td><td><span class="badge">AI Inference</span></td><td>Free rate-limited LPU inference API</td><td>1632 ms</td></tr><tr data-searchable="Hugging Face Spaces AI Inference Free CPU basic Spaces for Gradio/Streamlit/Docker" data-category="ai-inference"><td><span class="badge ok">UP</span></td><td><a href="https://huggingface.co/spaces" target="_blank" rel="noopener"><strong>Hugging Face Spaces</strong></a></td><td><span class="badge">AI Inference</span></td><td>Free CPU basic Spaces for Gradio/Streamlit/Docker</td><td>983 ms</td></tr><tr data-searchable="OpenRouter AI Inference Multiple :free hosted open-weight LLM models" data-category="ai-inference"><td><span class="badge ok">UP</span></td><td><a href="https://openrouter.ai/" target="_blank" rel="noopener"><strong>OpenRouter</strong></a></td><td><span class="badge">AI Inference</span></td><td>Multiple :free hosted open-weight LLM models</td><td>799 ms</td></tr><tr data-searchable="PostHog Analytics 1M product analytics events &amp; 5k session replays/mo" data-category="analytics"><td><span class="badge ok">UP</span></td><td><a href="https://posthog.com/" target="_blank" rel="noopener"><strong>PostHog</strong></a></td><td><span class="badge">Analytics</span></td><td>1M product analytics events &amp; 5k session replays/mo</td><td>615 ms</td></tr><tr data-searchable="Auth0 Auth 25,000 monthly active users, social logins" data-category="auth"><td><span class="badge ok">UP</span></td><td><a href="https://auth0.com/" target="_blank" rel="noopener"><strong>Auth0</strong></a></td><td><span class="badge">Auth</span></td><td>25,000 monthly active users, social logins</td><td>663 ms</td></tr><tr data-searchable="Clerk Auth 10,000 monthly active users free with prebuilt UI" data-category="auth"><td><span class="badge ok">UP</span></td><td><a href="https://clerk.com/" target="_blank" rel="noopener"><strong>Clerk</strong></a></td><td><span class="badge">Auth</span></td><td>10,000 monthly active users free with prebuilt UI</td><td>670 ms</td></tr><tr data-searchable="GitHub Actions CI/CD Unlimited minutes on public repos, 2,000 mins/mo private" data-category="ci-cd"><td><span class="badge ok">UP</span></td><td><a href="https://github.com/features/actions" target="_blank" rel="noopener"><strong>GitHub Actions</strong></a></td><td><span class="badge">CI/CD</span></td><td>Unlimited minutes on public repos, 2,000 mins/mo private</td><td>925 ms</td></tr><tr data-searchable="AWS Free Tier Cloud VMs 1M Lambda requests/mo always free + 12-mo EC2/RDS trial" data-category="cloud-vms"><td><span class="badge ok">UP</span></td><td><a href="https://aws.amazon.com/free/" target="_blank" rel="noopener"><strong>AWS Free Tier</strong></a></td><td><span class="badge">Cloud VMs</span></td><td>1M Lambda requests/mo always free + 12-mo EC2/RDS trial</td><td>802 ms</td></tr><tr data-searchable="Google Cloud Free Tier Cloud VMs e2-micro VM, Cloud Run 2M requests/mo, 5 GB storage" data-category="cloud-vms"><td><span class="badge ok">UP</span></td><td><a href="https://cloud.google.com/free" target="_blank" rel="noopener"><strong>Google Cloud Free Tier</strong></a></td><td><span class="badge">Cloud VMs</span></td><td>e2-micro VM, Cloud Run 2M requests/mo, 5 GB storage</td><td>652 ms</td></tr><tr data-searchable="Oracle Cloud Always Free Cloud VMs Up to 4 ARM Ampere OCPUs, 24 GB RAM, 200 GB block storage" data-category="cloud-vms"><td><span class="badge ok">UP</span></td><td><a href="https://www.oracle.com/cloud/free/" target="_blank" rel="noopener"><strong>Oracle Cloud Always Free</strong></a></td><td><span class="badge">Cloud VMs</span></td><td>Up to 4 ARM Ampere OCPUs, 24 GB RAM, 200 GB block storage</td><td>628 ms</td></tr><tr data-searchable="CockroachDB Serverless Database 10 GB storage, 50M Request Units/mo" data-category="database"><td><span class="badge ok">UP</span></td><td><a href="https://www.cockroachlabs.com/" target="_blank" rel="noopener"><strong>CockroachDB Serverless</strong></a></td><td><span class="badge">Database</span></td><td>10 GB storage, 50M Request Units/mo</td><td>1749 ms</td></tr><tr data-searchable="MongoDB Atlas Database 512 MB shared M0 cluster forever free" data-category="database"><td><span class="badge ok">UP</span></td><td><a href="https://www.mongodb.com/atlas" target="_blank" rel="noopener"><strong>MongoDB Atlas</strong></a></td><td><span class="badge">Database</span></td><td>512 MB shared M0 cluster forever free</td><td>1940 ms</td></tr><tr data-searchable="Neon Serverless Postgres Database 0.5 GB storage, branching, autoscaling Postgres" data-category="database"><td><span class="badge ok">UP</span></td><td><a href="https://neon.tech/" target="_blank" rel="noopener"><strong>Neon Serverless Postgres</strong></a></td><td><span class="badge">Database</span></td><td>0.5 GB storage, branching, autoscaling Postgres</td><td>1494 ms</td></tr><tr data-searchable="Supabase Database 2 active Postgres projects, 500 MB DB, 50k MAU auth" data-category="database"><td><span class="badge ok">UP</span></td><td><a href="https://supabase.com/" target="_blank" rel="noopener"><strong>Supabase</strong></a></td><td><span class="badge">Database</span></td><td>2 active Postgres projects, 500 MB DB, 50k MAU auth</td><td>610 ms</td></tr><tr data-searchable="Turso (libSQL) Database 500 databases, 9 GB storage, 1B row reads/mo" data-category="database"><td><span class="badge ok">UP</span></td><td><a href="https://turso.tech/" target="_blank" rel="noopener"><strong>Turso (libSQL)</strong></a></td><td><span class="badge">Database</span></td><td>500 databases, 9 GB storage, 1B row reads/mo</td><td>672 ms</td></tr><tr data-searchable="Upstash Redis Database 10,000 commands/day serverless Redis &amp; Kafka" data-category="database"><td><span class="badge ok">UP</span></td><td><a href="https://upstash.com/" target="_blank" rel="noopener"><strong>Upstash Redis</strong></a></td><td><span class="badge">Database</span></td><td>10,000 commands/day serverless Redis &amp; Kafka</td><td>719 ms</td></tr><tr data-searchable="Brevo (Sendinblue) Email 300 transactional emails/day free" data-category="email"><td><span class="badge ok">UP</span></td><td><a href="https://www.brevo.com/" target="_blank" rel="noopener"><strong>Brevo (Sendinblue)</strong></a></td><td><span class="badge">Email</span></td><td>300 transactional emails/day free</td><td>638 ms</td></tr><tr data-searchable="Mailgun Email 100 emails/day free sandbox/flex tier" data-category="email"><td><span class="badge ok">UP</span></td><td><a href="https://www.mailgun.com/" target="_blank" rel="noopener"><strong>Mailgun</strong></a></td><td><span class="badge">Email</span></td><td>100 emails/day free sandbox/flex tier</td><td>583 ms</td></tr><tr data-searchable="Resend Email 3,000 emails/mo (100/day) developer email API" data-category="email"><td><span class="badge ok">UP</span></td><td><a href="https://resend.com/" target="_blank" rel="noopener"><strong>Resend</strong></a></td><td><span class="badge">Email</span></td><td>3,000 emails/mo (100/day) developer email API</td><td>605 ms</td></tr><tr data-searchable="Cloudflare Pages Hosting Unlimited static sites, 500 builds/mo, unlimited bandwidth" data-category="hosting"><td><span class="badge ok">UP</span></td><td><a href="https://pages.cloudflare.com/" target="_blank" rel="noopener"><strong>Cloudflare Pages</strong></a></td><td><span class="badge">Hosting</span></td><td>Unlimited static sites, 500 builds/mo, unlimited bandwidth</td><td>1232 ms</td></tr><tr data-searchable="Fly.io Hosting Pay-as-you-go with small free allowances &amp; global edge VMs" data-category="hosting"><td><span class="badge ok">UP</span></td><td><a href="https://fly.io/" target="_blank" rel="noopener"><strong>Fly.io</strong></a></td><td><span class="badge">Hosting</span></td><td>Pay-as-you-go with small free allowances &amp; global edge VMs</td><td>616 ms</td></tr><tr data-searchable="GitHub Pages Hosting Free static hosting directly from GitHub repositories" data-category="hosting"><td><span class="badge ok">UP</span></td><td><a href="https://pages.github.com/" target="_blank" rel="noopener"><strong>GitHub Pages</strong></a></td><td><span class="badge">Hosting</span></td><td>Free static hosting directly from GitHub repositories</td><td>484 ms</td></tr><tr data-searchable="Koyeb Hosting 1 free nano web service + global edge network" data-category="hosting"><td><span class="badge ok">UP</span></td><td><a href="https://www.koyeb.com/" target="_blank" rel="noopener"><strong>Koyeb</strong></a></td><td><span class="badge">Hosting</span></td><td>1 free nano web service + global edge network</td><td>735 ms</td></tr><tr data-searchable="Netlify Starter Hosting 100 GB bandwidth/mo, 300 build mins, edge functions" data-category="hosting"><td><span class="badge ok">UP</span></td><td><a href="https://www.netlify.com/" target="_blank" rel="noopener"><strong>Netlify Starter</strong></a></td><td><span class="badge">Hosting</span></td><td>100 GB bandwidth/mo, 300 build mins, edge functions</td><td>772 ms</td></tr><tr data-searchable="Render Free Hosting Free web services (spins down on idle) &amp; static sites" data-category="hosting"><td><span class="badge ok">UP</span></td><td><a href="https://render.com/" target="_blank" rel="noopener"><strong>Render Free</strong></a></td><td><span class="badge">Hosting</span></td><td>Free web services (spins down on idle) &amp; static sites</td><td>811 ms</td></tr><tr data-searchable="Vercel Hobby Hosting 100 GB bandwidth/mo, serverless functions, preview deploys" data-category="hosting"><td><span class="badge ok">UP</span></td><td><a href="https://vercel.com/" target="_blank" rel="noopener"><strong>Vercel Hobby</strong></a></td><td><span class="badge">Hosting</span></td><td>100 GB bandwidth/mo, serverless functions, preview deploys</td><td>653 ms</td></tr><tr data-searchable="Better Stack Monitoring 10 uptime monitors (3-min checks) + status page" data-category="monitoring"><td><span class="badge ok">UP</span></td><td><a href="https://betterstack.com/" target="_blank" rel="noopener"><strong>Better Stack</strong></a></td><td><span class="badge">Monitoring</span></td><td>10 uptime monitors (3-min checks) + status page</td><td>629 ms</td></tr><tr data-searchable="Grafana Cloud Monitoring 10k metrics series, 50 GB logs &amp; traces" data-category="monitoring"><td><span class="badge ok">UP</span></td><td><a href="https://grafana.com/products/cloud/" target="_blank" rel="noopener"><strong>Grafana Cloud</strong></a></td><td><span class="badge">Monitoring</span></td><td>10k metrics series, 50 GB logs &amp; traces</td><td>592 ms</td></tr><tr data-searchable="Sentry Monitoring 5,000 errors/mo, performance tracing for 1 user" data-category="monitoring"><td><span class="badge ok">UP</span></td><td><a href="https://sentry.io/" target="_blank" rel="noopener"><strong>Sentry</strong></a></td><td><span class="badge">Monitoring</span></td><td>5,000 errors/mo, performance tracing for 1 user</td><td>1485 ms</td></tr><tr data-searchable="Cloudflare Tunnel Networking Unlimited zero-trust tunnels without opening ports" data-category="networking"><td><span class="badge ok">UP</span></td><td><a href="https://developers.cloudflare.com/cloudflare-one/connections/connect-networks/" target="_blank" rel="noopener"><strong>Cloudflare Tunnel</strong></a></td><td><span class="badge">Networking</span></td><td>Unlimited zero-trust tunnels without opening ports</td><td>1033 ms</td></tr><tr data-searchable="Tailscale Networking Free personal mesh VPN for up to 100 devices" data-category="networking"><td><span class="badge ok">UP</span></td><td><a href="https://tailscale.com/" target="_blank" rel="noopener"><strong>Tailscale</strong></a></td><td><span class="badge">Networking</span></td><td>Free personal mesh VPN for up to 100 devices</td><td>1137 ms</td></tr><tr data-searchable="ngrok Networking 1 free static domain + local tunnel inspection" data-category="networking"><td><span class="badge ok">UP</span></td><td><a href="https://ngrok.com/" target="_blank" rel="noopener"><strong>ngrok</strong></a></td><td><span class="badge">Networking</span></td><td>1 free static domain + local tunnel inspection</td><td>737 ms</td></tr><tr data-searchable="Cloudflare Workers Serverless 100,000 requests/day globally at the edge" data-category="serverless"><td><span class="badge ok">UP</span></td><td><a href="https://workers.cloudflare.com/" target="_blank" rel="noopener"><strong>Cloudflare Workers</strong></a></td><td><span class="badge">Serverless</span></td><td>100,000 requests/day globally at the edge</td><td>1908 ms</td></tr><tr data-searchable="Val Town Serverless Free TypeScript serverless cron &amp; HTTP endpoints" data-category="serverless"><td><span class="badge ok">UP</span></td><td><a href="https://www.val.town/" target="_blank" rel="noopener"><strong>Val Town</strong></a></td><td><span class="badge">Serverless</span></td><td>Free TypeScript serverless cron &amp; HTTP endpoints</td><td>824 ms</td></tr><tr data-searchable="Backblaze B2 Storage &amp; CDN 10 GB S3-compatible object storage free" data-category="storage-cdn"><td><span class="badge ok">UP</span></td><td><a href="https://www.backblaze.com/cloud-storage" target="_blank" rel="noopener"><strong>Backblaze B2</strong></a></td><td><span class="badge">Storage &amp; CDN</span></td><td>10 GB S3-compatible object storage free</td><td>717 ms</td></tr><tr data-searchable="Cloudflare R2 Storage &amp; CDN 10 GB storage/mo, zero egress fees" data-category="storage-cdn"><td><span class="badge ok">UP</span></td><td><a href="https://www.cloudflare.com/developer-platform/products/r2/" target="_blank" rel="noopener"><strong>Cloudflare R2</strong></a></td><td><span class="badge">Storage &amp; CDN</span></td><td>10 GB storage/mo, zero egress fees</td><td>2613 ms</td></tr><tr data-searchable="Cloudinary Storage &amp; CDN 25 credits/mo image &amp; video optimization CDN" data-category="storage-cdn"><td><span class="badge ok">UP</span></td><td><a href="https://cloudinary.com/" target="_blank" rel="noopener"><strong>Cloudinary</strong></a></td><td><span class="badge">Storage &amp; CDN</span></td><td>25 credits/mo image &amp; video optimization CDN</td><td>627 ms</td></tr></tbody></table></div>
+    </main>
+
+    <footer>
+      <div>Auto-maintained by <a href="https://github.com/OneForAllHub">OneForAllHub</a> · <a href="https://oneforallhub.github.io/">All Trackers Hub</a> · <a href="https://oneforallhub.github.io/panel.html">Analytics Panel</a></div>
+      <div><a href="https://github.com/OneForAllHub/free-for-devs-live">GitHub Repository</a> · <a href="https://oneforallhub.github.io/free-for-devs-live/sitemap.xml">Sitemap</a></div>
+    </footer>
+  </div>
+  <script>
+    
+    const searchInput = document.getElementById('searchInput');
+    const filterButtons = document.querySelectorAll('.filter-btn');
+    const items = document.querySelectorAll('[data-searchable]');
+    const visibleCountEl = document.getElementById('visibleCount');
+    let activeCategory = 'all';
+
+    function applyFilters() {
+      const q = (searchInput ? searchInput.value : '').trim().toLowerCase();
+      let shown = 0;
+      items.forEach(el => {
+        const text = (el.getAttribute('data-searchable') || '').toLowerCase();
+        const cat = (el.getAttribute('data-category') || '').toLowerCase();
+        const matchesQuery = !q || text.includes(q);
+        const matchesCat = activeCategory === 'all' || cat.split('|').includes(activeCategory);
+        const show = matchesQuery && matchesCat;
+        el.style.display = show ? '' : 'none';
+        if (show) shown++;
+      });
+      if (visibleCountEl) visibleCountEl.textContent = shown;
+    }
+
+    if (searchInput) {
+      searchInput.addEventListener('input', applyFilters);
+    }
+    filterButtons.forEach(btn => {
+      btn.addEventListener('click', () => {
+        filterButtons.forEach(b => b.classList.remove('active'));
+        btn.classList.add('active');
+        activeCategory = (btn.getAttribute('data-filter') || 'all').toLowerCase();
+        applyFilters();
+      });
+    });
+    applyFilters();
+    
+    
+    (function() {
+      try {
+        var key = "free-for-devs-live--index";
+        var ns = "oneforallhub-pv";
+        if (sessionStorage.getItem('pv_hit_' + key)) return;
+        sessionStorage.setItem('pv_hit_' + key, '1');
+        var day = new Date().toISOString().slice(0, 10);
+        fetch('https://abacus.jasoncameron.dev/hit/' + ns + '/' + key + '__' + day, {mode: 'no-cors', keepalive: true});
+        fetch('https://abacus.jasoncameron.dev/hit/' + ns + '/' + key + '__all', {mode: 'no-cors', keepalive: true});
+      } catch (e) {}
+    })();
+    
+  </script>
+</body>
+</html>
