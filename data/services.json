@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-11-25T06:55:18Z",
+  "updated_at": "2026-11-25T12:56:48Z",
   "count": 38,
   "services": [
     {
@@ -9,7 +9,7 @@
       "url": "https://aistudio.google.com/",
       "status": "UP",
       "http_code": 200,
-      "latency_ms": 223
+      "latency_ms": 229
     },
     {
       "name": "GroqCloud",
@@ -18,7 +18,7 @@
       "url": "https://groq.com/",
       "status": "UP",
       "http_code": 200,
-      "latency_ms": 57
+      "latency_ms": 190
     },
     {
       "name": "Hugging Face Spaces",
@@ -27,7 +27,7 @@
       "url": "https://huggingface.co/spaces",
       "status": "UP",
       "http_code": 200,
-      "latency_ms": 95
+      "latency_ms": 139
     },
     {
       "name": "OpenRouter",
@@ -36,7 +36,7 @@
       "url": "https://openrouter.ai/",
       "status": "UP",
       "http_code": 200,
-      "latency_ms": 61
+      "latency_ms": 101
     },
     {
       "name": "PostHog",
@@ -45,7 +45,7 @@
       "url": "https://posthog.com/",
       "status": "UP",
       "http_code": 200,
-      "latency_ms": 72
+      "latency_ms": 81
     },
     {
       "name": "Auth0",
@@ -54,7 +54,7 @@
       "url": "https://auth0.com/",
       "status": "UP",
       "http_code": 200,
-      "latency_ms": 84
+      "latency_ms": 353
     },
     {
       "name": "Clerk",
@@ -63,7 +63,7 @@
       "url": "https://clerk.com/",
       "status": "UP",
       "http_code": 200,
-      "latency_ms": 83
+      "latency_ms": 179
     },
     {
       "name": "GitHub Actions",
@@ -72,7 +72,7 @@
       "url": "https://github.com/features/actions",
       "status": "UP",
       "http_code": 200,
-      "latency_ms": 214
+      "latency_ms": 390
     },
     {
       "name": "AWS Free Tier",
@@ -81,7 +81,7 @@
       "url": "https://aws.amazon.com/free/",
       "status": "UP",
       "http_code": 200,
-      "latency_ms": 50
+      "latency_ms": 136
     },
     {
       "name": "Google Cloud Free Tier",
@@ -90,7 +90,7 @@
       "url": "https://cloud.google.com/free",
       "status": "UP",
       "http_code": 200,
-      "latency_ms": 107
+      "latency_ms": 126
     },
     {
       "name": "Oracle Cloud Always Free",
@@ -99,7 +99,7 @@
       "url": "https://www.oracle.com/cloud/free/",
       "status": "UP",
       "http_code": 200,
-      "latency_ms": 62
+      "latency_ms": 193
     },
     {
       "name": "CockroachDB Serverless",
@@ -108,7 +108,7 @@
       "url": "https://www.cockroachlabs.com/",
       "status": "UP",
       "http_code": 200,
-      "latency_ms": 623
+      "latency_ms": 605
     },
     {
       "name": "MongoDB Atlas",
@@ -117,7 +117,7 @@
       "url": "https://www.mongodb.com/atlas",
       "status": "UP",
       "http_code": 200,
-      "latency_ms": 12786
+      "latency_ms": 679
     },
     {
       "name": "Neon Serverless Postgres",
@@ -126,7 +126,7 @@
       "url": "https://neon.tech/",
       "status": "UP",
       "http_code": 200,
-      "latency_ms": 112
+      "latency_ms": 280
     },
     {
       "name": "Supabase",
@@ -135,7 +135,7 @@
       "url": "https://supabase.com/",
       "status": "UP",
       "http_code": 200,
-      "latency_ms": 101
+      "latency_ms": 114
     },
     {
       "name": "Turso (libSQL)",
@@ -144,7 +144,7 @@
       "url": "https://turso.tech/",
       "status": "UP",
       "http_code": 200,
-      "latency_ms": 71
+      "latency_ms": 130
     },
     {
       "name": "Upstash Redis",
@@ -153,7 +153,7 @@
       "url": "https://upstash.com/",
       "status": "UP",
       "http_code": 200,
-      "latency_ms": 69
+      "latency_ms": 178
     },
     {
       "name": "Brevo (Sendinblue)",
@@ -162,7 +162,7 @@
       "url": "https://www.brevo.com/",
       "status": "UP",
       "http_code": 200,
-      "latency_ms": 30
+      "latency_ms": 91
     },
     {
       "name": "Mailgun",
@@ -171,7 +171,7 @@
       "url": "https://www.mailgun.com/",
       "status": "UP",
       "http_code": 200,
-      "latency_ms": 25
+      "latency_ms": 157
     },
     {
       "name": "Resend",
@@ -180,7 +180,7 @@
       "url": "https://resend.com/",
       "status": "UP",
       "http_code": 200,
-      "latency_ms": 86
+      "latency_ms": 151
     },
     {
       "name": "Cloudflare Pages",
@@ -189,7 +189,7 @@
       "url": "https://pages.cloudflare.com/",
       "status": "UP",
       "http_code": 200,
-      "latency_ms": 63
+      "latency_ms": 129
     },
     {
       "name": "Fly.io",
@@ -198,7 +198,7 @@
       "url": "https://fly.io/",
       "status": "UP",
       "http_code": 200,
-      "latency_ms": 45
+      "latency_ms": 63
     },
     {
       "name": "GitHub Pages",
@@ -207,7 +207,7 @@
       "url": "https://pages.github.com/",
       "status": "UP",
       "http_code": 200,
-      "latency_ms": 12
+      "latency_ms": 57
     },
     {
       "name": "Koyeb",
@@ -216,7 +216,7 @@
       "url": "https://www.koyeb.com/",
       "status": "UP",
       "http_code": 200,
-      "latency_ms": 142
+      "latency_ms": 256
     },
     {
       "name": "Netlify Starter",
@@ -225,7 +225,7 @@
       "url": "https://www.netlify.com/",
       "status": "UP",
       "http_code": 200,
-      "latency_ms": 129
+      "latency_ms": 190
     },
     {
       "name": "Render Free",
@@ -234,7 +234,7 @@
       "url": "https://render.com/",
       "status": "UP",
       "http_code": 200,
-      "latency_ms": 109
+      "latency_ms": 319
     },
     {
       "name": "Vercel Hobby",
@@ -243,7 +243,7 @@
       "url": "https://vercel.com/",
       "status": "UP",
       "http_code": 200,
-      "latency_ms": 187
+      "latency_ms": 198
     },
     {
       "name": "Better Stack",
@@ -252,7 +252,7 @@
       "url": "https://betterstack.com/",
       "status": "UP",
       "http_code": 200,
-      "latency_ms": 22
+      "latency_ms": 60
     },
     {
       "name": "Grafana Cloud",
@@ -261,7 +261,7 @@
       "url": "https://grafana.com/products/cloud/",
       "status": "UP",
       "http_code": 200,
-      "latency_ms": 42
+      "latency_ms": 58
     },
     {
       "name": "Sentry",
@@ -270,7 +270,7 @@
       "url": "https://sentry.io/",
       "status": "UP",
       "http_code": 200,
-      "latency_ms": 166
+      "latency_ms": 223
     },
     {
       "name": "Cloudflare Tunnel",
@@ -279,7 +279,7 @@
       "url": "https://developers.cloudflare.com/cloudflare-one/connections/connect-networks/",
       "status": "UP",
       "http_code": 200,
-      "latency_ms": 61
+      "latency_ms": 104
     },
     {
       "name": "Tailscale",
@@ -288,7 +288,7 @@
       "url": "https://tailscale.com/",
       "status": "UP",
       "http_code": 200,
-      "latency_ms": 74
+      "latency_ms": 214
     },
     {
       "name": "ngrok",
@@ -297,7 +297,7 @@
       "url": "https://ngrok.com/",
       "status": "UP",
       "http_code": 200,
-      "latency_ms": 68
+      "latency_ms": 293
     },
     {
       "name": "Cloudflare Workers",
@@ -306,7 +306,7 @@
       "url": "https://workers.cloudflare.com/",
       "status": "UP",
       "http_code": 200,
-      "latency_ms": 57
+      "latency_ms": 356
     },
     {
       "name": "Val Town",
@@ -315,7 +315,7 @@
       "url": "https://www.val.town/",
       "status": "UP",
       "http_code": 200,
-      "latency_ms": 113
+      "latency_ms": 272
     },
     {
       "name": "Backblaze B2",
@@ -324,7 +324,7 @@
       "url": "https://www.backblaze.com/cloud-storage",
       "status": "UP",
       "http_code": 200,
-      "latency_ms": 92
+      "latency_ms": 111
     },
     {
       "name": "Cloudflare R2",
@@ -333,7 +333,7 @@
       "url": "https://www.cloudflare.com/developer-platform/products/r2/",
       "status": "UP",
       "http_code": 200,
-      "latency_ms": 53
+      "latency_ms": 173
     },
     {
       "name": "Cloudinary",
@@ -342,7 +342,7 @@
       "url": "https://cloudinary.com/",
       "status": "UP",
       "http_code": 200,
-      "latency_ms": 28
+      "latency_ms": 131
     }
   ]
 }
