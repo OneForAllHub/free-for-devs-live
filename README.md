@@ -1,6 +1,6 @@
 # Free For Devs Live ☁️🆓
 
-![Last Updated](https://img.shields.io/badge/Last%20Updated-2026--11--26T12%3A56%3A02Z-brightgreen?style=flat-square)
+![Last Updated](https://img.shields.io/badge/Last%20Updated-2026--11--26T18%3A42%3A22Z-brightgreen?style=flat-square)
 ![Online](https://img.shields.io/badge/Services%20Online-38%2F38-success?style=flat-square)
 ![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg?style=flat-square)
 
@@ -13,44 +13,44 @@
 
 | Status | Service | Category | Free Tier Highlights | Latency |
 | --- | --- | --- | --- | ---: |
-| ✅ UP | [Google AI Studio](https://aistudio.google.com/) | AI Inference | Free Gemini API tier for prototyping | 233 ms |
-| ✅ UP | [GroqCloud](https://groq.com/) | AI Inference | Free rate-limited LPU inference API | 109 ms |
-| ✅ UP | [Hugging Face Spaces](https://huggingface.co/spaces) | AI Inference | Free CPU basic Spaces for Gradio/Streamlit/Docker | 116 ms |
-| ✅ UP | [OpenRouter](https://openrouter.ai/) | AI Inference | Multiple :free hosted open-weight LLM models | 84 ms |
-| ✅ UP | [PostHog](https://posthog.com/) | Analytics | 1M product analytics events & 5k session replays/mo | 72 ms |
-| ✅ UP | [Auth0](https://auth0.com/) | Auth | 25,000 monthly active users, social logins | 506 ms |
-| ✅ UP | [Clerk](https://clerk.com/) | Auth | 10,000 monthly active users free with prebuilt UI | 295 ms |
-| ✅ UP | [GitHub Actions](https://github.com/features/actions) | CI/CD | Unlimited minutes on public repos, 2,000 mins/mo private | 338 ms |
-| ✅ UP | [AWS Free Tier](https://aws.amazon.com/free/) | Cloud VMs | 1M Lambda requests/mo always free + 12-mo EC2/RDS trial | 155 ms |
-| ✅ UP | [Google Cloud Free Tier](https://cloud.google.com/free) | Cloud VMs | e2-micro VM, Cloud Run 2M requests/mo, 5 GB storage | 68 ms |
-| ✅ UP | [Oracle Cloud Always Free](https://www.oracle.com/cloud/free/) | Cloud VMs | Up to 4 ARM Ampere OCPUs, 24 GB RAM, 200 GB block storage | 91 ms |
-| ✅ UP | [CockroachDB Serverless](https://www.cockroachlabs.com/) | Database | 10 GB storage, 50M Request Units/mo | 671 ms |
-| ✅ UP | [MongoDB Atlas](https://www.mongodb.com/atlas) | Database | 512 MB shared M0 cluster forever free | 1562 ms |
-| ✅ UP | [Neon Serverless Postgres](https://neon.tech/) | Database | 0.5 GB storage, branching, autoscaling Postgres | 230 ms |
-| ✅ UP | [Supabase](https://supabase.com/) | Database | 2 active Postgres projects, 500 MB DB, 50k MAU auth | 73 ms |
-| ✅ UP | [Turso (libSQL)](https://turso.tech/) | Database | 500 databases, 9 GB storage, 1B row reads/mo | 144 ms |
-| ✅ UP | [Upstash Redis](https://upstash.com/) | Database | 10,000 commands/day serverless Redis & Kafka | 130 ms |
-| ✅ UP | [Brevo (Sendinblue)](https://www.brevo.com/) | Email | 300 transactional emails/day free | 62 ms |
-| ✅ UP | [Mailgun](https://www.mailgun.com/) | Email | 100 emails/day free sandbox/flex tier | 86 ms |
-| ✅ UP | [Resend](https://resend.com/) | Email | 3,000 emails/mo (100/day) developer email API | 171 ms |
-| ✅ UP | [Cloudflare Pages](https://pages.cloudflare.com/) | Hosting | Unlimited static sites, 500 builds/mo, unlimited bandwidth | 169 ms |
-| ✅ UP | [Fly.io](https://fly.io/) | Hosting | Pay-as-you-go with small free allowances & global edge VMs | 170 ms |
-| ✅ UP | [GitHub Pages](https://pages.github.com/) | Hosting | Free static hosting directly from GitHub repositories | 72 ms |
-| ✅ UP | [Koyeb](https://www.koyeb.com/) | Hosting | 1 free nano web service + global edge network | 244 ms |
-| ✅ UP | [Netlify Starter](https://www.netlify.com/) | Hosting | 100 GB bandwidth/mo, 300 build mins, edge functions | 244 ms |
-| ✅ UP | [Render Free](https://render.com/) | Hosting | Free web services (spins down on idle) & static sites | 132 ms |
-| ✅ UP | [Vercel Hobby](https://vercel.com/) | Hosting | 100 GB bandwidth/mo, serverless functions, preview deploys | 158 ms |
-| ✅ UP | [Better Stack](https://betterstack.com/) | Monitoring | 10 uptime monitors (3-min checks) + status page | 32 ms |
-| ✅ UP | [Grafana Cloud](https://grafana.com/products/cloud/) | Monitoring | 10k metrics series, 50 GB logs & traces | 140 ms |
-| ✅ UP | [Sentry](https://sentry.io/) | Monitoring | 5,000 errors/mo, performance tracing for 1 user | 328 ms |
-| ✅ UP | [Cloudflare Tunnel](https://developers.cloudflare.com/cloudflare-one/connections/connect-networks/) | Networking | Unlimited zero-trust tunnels without opening ports | 68 ms |
-| ✅ UP | [Tailscale](https://tailscale.com/) | Networking | Free personal mesh VPN for up to 100 devices | 126 ms |
-| ✅ UP | [ngrok](https://ngrok.com/) | Networking | 1 free static domain + local tunnel inspection | 153 ms |
-| ✅ UP | [Cloudflare Workers](https://workers.cloudflare.com/) | Serverless | 100,000 requests/day globally at the edge | 95 ms |
-| ✅ UP | [Val Town](https://www.val.town/) | Serverless | Free TypeScript serverless cron & HTTP endpoints | 377 ms |
-| ✅ UP | [Backblaze B2](https://www.backblaze.com/cloud-storage) | Storage & CDN | 10 GB S3-compatible object storage free | 119 ms |
-| ✅ UP | [Cloudflare R2](https://www.cloudflare.com/developer-platform/products/r2/) | Storage & CDN | 10 GB storage/mo, zero egress fees | 311 ms |
-| ✅ UP | [Cloudinary](https://cloudinary.com/) | Storage & CDN | 25 credits/mo image & video optimization CDN | 60 ms |
+| ✅ UP | [Google AI Studio](https://aistudio.google.com/) | AI Inference | Free Gemini API tier for prototyping | 208 ms |
+| ✅ UP | [GroqCloud](https://groq.com/) | AI Inference | Free rate-limited LPU inference API | 194 ms |
+| ✅ UP | [Hugging Face Spaces](https://huggingface.co/spaces) | AI Inference | Free CPU basic Spaces for Gradio/Streamlit/Docker | 174 ms |
+| ✅ UP | [OpenRouter](https://openrouter.ai/) | AI Inference | Multiple :free hosted open-weight LLM models | 98 ms |
+| ✅ UP | [PostHog](https://posthog.com/) | Analytics | 1M product analytics events & 5k session replays/mo | 96 ms |
+| ✅ UP | [Auth0](https://auth0.com/) | Auth | 25,000 monthly active users, social logins | 151 ms |
+| ✅ UP | [Clerk](https://clerk.com/) | Auth | 10,000 monthly active users free with prebuilt UI | 251 ms |
+| ✅ UP | [GitHub Actions](https://github.com/features/actions) | CI/CD | Unlimited minutes on public repos, 2,000 mins/mo private | 309 ms |
+| ✅ UP | [AWS Free Tier](https://aws.amazon.com/free/) | Cloud VMs | 1M Lambda requests/mo always free + 12-mo EC2/RDS trial | 121 ms |
+| ✅ UP | [Google Cloud Free Tier](https://cloud.google.com/free) | Cloud VMs | e2-micro VM, Cloud Run 2M requests/mo, 5 GB storage | 112 ms |
+| ✅ UP | [Oracle Cloud Always Free](https://www.oracle.com/cloud/free/) | Cloud VMs | Up to 4 ARM Ampere OCPUs, 24 GB RAM, 200 GB block storage | 136 ms |
+| ✅ UP | [CockroachDB Serverless](https://www.cockroachlabs.com/) | Database | 10 GB storage, 50M Request Units/mo | 704 ms |
+| ✅ UP | [MongoDB Atlas](https://www.mongodb.com/atlas) | Database | 512 MB shared M0 cluster forever free | 2356 ms |
+| ✅ UP | [Neon Serverless Postgres](https://neon.tech/) | Database | 0.5 GB storage, branching, autoscaling Postgres | 330 ms |
+| ✅ UP | [Supabase](https://supabase.com/) | Database | 2 active Postgres projects, 500 MB DB, 50k MAU auth | 147 ms |
+| ✅ UP | [Turso (libSQL)](https://turso.tech/) | Database | 500 databases, 9 GB storage, 1B row reads/mo | 176 ms |
+| ✅ UP | [Upstash Redis](https://upstash.com/) | Database | 10,000 commands/day serverless Redis & Kafka | 183 ms |
+| ✅ UP | [Brevo (Sendinblue)](https://www.brevo.com/) | Email | 300 transactional emails/day free | 132 ms |
+| ✅ UP | [Mailgun](https://www.mailgun.com/) | Email | 100 emails/day free sandbox/flex tier | 92 ms |
+| ✅ UP | [Resend](https://resend.com/) | Email | 3,000 emails/mo (100/day) developer email API | 429 ms |
+| ✅ UP | [Cloudflare Pages](https://pages.cloudflare.com/) | Hosting | Unlimited static sites, 500 builds/mo, unlimited bandwidth | 311 ms |
+| ✅ UP | [Fly.io](https://fly.io/) | Hosting | Pay-as-you-go with small free allowances & global edge VMs | 134 ms |
+| ✅ UP | [GitHub Pages](https://pages.github.com/) | Hosting | Free static hosting directly from GitHub repositories | 81 ms |
+| ✅ UP | [Koyeb](https://www.koyeb.com/) | Hosting | 1 free nano web service + global edge network | 400 ms |
+| ✅ UP | [Netlify Starter](https://www.netlify.com/) | Hosting | 100 GB bandwidth/mo, 300 build mins, edge functions | 239 ms |
+| ✅ UP | [Render Free](https://render.com/) | Hosting | Free web services (spins down on idle) & static sites | 139 ms |
+| ✅ UP | [Vercel Hobby](https://vercel.com/) | Hosting | 100 GB bandwidth/mo, serverless functions, preview deploys | 127 ms |
+| ✅ UP | [Better Stack](https://betterstack.com/) | Monitoring | 10 uptime monitors (3-min checks) + status page | 64 ms |
+| ✅ UP | [Grafana Cloud](https://grafana.com/products/cloud/) | Monitoring | 10k metrics series, 50 GB logs & traces | 170 ms |
+| ✅ UP | [Sentry](https://sentry.io/) | Monitoring | 5,000 errors/mo, performance tracing for 1 user | 316 ms |
+| ✅ UP | [Cloudflare Tunnel](https://developers.cloudflare.com/cloudflare-one/connections/connect-networks/) | Networking | Unlimited zero-trust tunnels without opening ports | 105 ms |
+| ✅ UP | [Tailscale](https://tailscale.com/) | Networking | Free personal mesh VPN for up to 100 devices | 176 ms |
+| ✅ UP | [ngrok](https://ngrok.com/) | Networking | 1 free static domain + local tunnel inspection | 182 ms |
+| ✅ UP | [Cloudflare Workers](https://workers.cloudflare.com/) | Serverless | 100,000 requests/day globally at the edge | 305 ms |
+| ✅ UP | [Val Town](https://www.val.town/) | Serverless | Free TypeScript serverless cron & HTTP endpoints | 428 ms |
+| ✅ UP | [Backblaze B2](https://www.backblaze.com/cloud-storage) | Storage & CDN | 10 GB S3-compatible object storage free | 176 ms |
+| ✅ UP | [Cloudflare R2](https://www.cloudflare.com/developer-platform/products/r2/) | Storage & CDN | 10 GB storage/mo, zero egress fees | 239 ms |
+| ✅ UP | [Cloudinary](https://cloudinary.com/) | Storage & CDN | 25 credits/mo image & video optimization CDN | 97 ms |
 
 ## Dedicated Topic & SEO Pages
 
